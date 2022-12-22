@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
 import { ProductosFileSystem } from "../controllers/producto/productoFileSystem.js";
-import { DaoProductos } from "../daos/index.js";
+import { DaoProductos } from "../dao/index.js";
 
 export const routerProductos = Router();
 //const productos = new ProductosFileSystem("productos.txt");

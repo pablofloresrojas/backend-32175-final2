@@ -1,35 +1,33 @@
 import path from "path";
 import * as url from 'url';
-
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
-
 export const options = {
     //File System
-    filesystem:{
-        fileProductos:"productos.txt",
-        fileCarritos:"carrito.txt"
+    filesystem: {
+        fileProductos: "productos.txt",
+        fileCarritos: "carrito.txt"
     },
     //bd de productos
-    mariaDB:{
-        client:"mysql",
-        connection:{
-            host:"127.0.0.1",
-            user:"root",
-            password:"",
-            database:"ecommerce"
+    mariaDB: {
+        client: "mysql",
+        connection: {
+            host: "127.0.0.1",
+            user: "root",
+            password: "",
+            database: "ecommerce"
         }
     },
     //bd de mensajes
-    sqliteDB:{
-        client:"sqlite",
-        connection:{
-            filename:path.join(__dirname,"../DB/ecommerce.sqlite")
+    sqliteDB: {
+        client: "sqlite",
+        connection: {
+            filename: path.join(__dirname, "../DB/ecommerce.sqlite")
         },
-        useNullAsDefault:true
+        useNullAsDefault: true
     },
-    firebase:{
-        urlDB:"https://ecommerce-35cdc.firebase.io",
-        key:{
+    firebase: {
+        urlDB: "https://ecommerce-35cdc.firebase.io",
+        key: {
             type: "service_account",
             project_id: "ecommerce-35cdc",
             private_key_id: "b93b8b87e08b88329af22b2c51aa96e901b32b9f",
@@ -40,13 +38,12 @@ export const options = {
             token_uri: "https://oauth2.googleapis.com/token",
             auth_provider_x509_cert_url: "https://www.googleapis.com/oauth2/v1/certs",
             client_x509_cert_url: "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-t21rt%40ecommerce-35cdc.iam.gserviceaccount.com"
-          }
-          
+        }
     },
-    atlas:{
-        urlDB:"mongodb+srv://pabfloresrojas:peZguh-komze4-fywvek@coder32175.04krs0z.mongodb.net/ecommerce?retryWrites=true&w=majority",
-        options:{
-            useNewUrlParser:true,
+    atlas: {
+        urlDB: "mongodb+srv://pabfloresrojas:peZguh-komze4-fywvek@coder32175.04krs0z.mongodb.net/ecommerce?retryWrites=true&w=majority",
+        options: {
+            useNewUrlParser: true,
             useUnifiedTopology: true
         }
     }

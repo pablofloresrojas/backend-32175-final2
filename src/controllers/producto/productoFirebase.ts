@@ -1,6 +1,7 @@
 import { typeProducto } from '../../interfaces/interfaces.js';
 import { instanceOf } from "../../functions/funciones.js";
 import admin from "firebase-admin";
+import { options } from '../../config/databaseConfig.js';
 
 let db:any;
 let productosCollection:any;
@@ -9,7 +10,12 @@ export class ProductosFirebase {
 
     constructor(firebaseKey:string,urlDB:string){
         //conexion a la base de datos de firebase
-
+        admin.initializeApp(
+            {
+                credential: admin.credential.cert(JSON.parse(JSON.stringify(options.firebase.key))),
+                databaseURL: options.firebase.urlDB
+            }
+        );
         db = admin.firestore(); //instancia bd firebase
         productosCollection = db.collection(collect);
     }

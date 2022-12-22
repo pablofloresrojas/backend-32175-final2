@@ -1,6 +1,6 @@
 import { Router, Request, Response } from "express";
 //import { CarritoFileSystem } from "../controllers/carrito/fileSystem.js";
-import { DaoCarritos } from "../daos/index.js";
+import { DaoCarritos } from "../dao/index.js";
 
 export const routerCarrito = Router();
 //const carrito = new CarritoFileSystem("carrito.txt");
