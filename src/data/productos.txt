@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "clavos",
+    "descripcion": "",
+    "precio": 8000,
+    "stock": 50,
+    "fotoUrl": "https://img.freepik.com/vector-gratis/diseno-etiqueta-martillo-garra-aislado_1308-61820.jpg?w=2000",
+    "codigo": "5500",
+    "id": 1,
+    "timestamp": 1669265327222
+  },
+  {
+    "nombre": "CASCO",
+    "descripcion": "",
+    "precio": 1000,
+    "stock": 100,
+    "fotoUrl": "https://img.freepik.com/vector-gratis/diseno-etiqueta-martillo-garra-aislado_1308-61820.jpg?w=2000",
+    "codigo": "2222",
+    "id": 3,
+    "timestamp": 1669346394830
+  },
+  {
+    "nombre": "alicate",
+    "descripcion": "",
+    "precio": 8000,
+    "stock": 50,
+    "fotoUrl": "https://img.freepik.com/vector-gratis/diseno-etiqueta-martillo-garra-aislado_1308-61820.jpg?w=2000",
+    "codigo": "5500",
+    "id": 4,
+    "timestamp": 1669346397630
+  },
+  {
+    "nombre": "CASCO",
+    "descripcion": "descripcion del producto",
+    "codigo": "133888383",
+    "fotoUrl": "https://img.freepik.com/vector-gratis/diseno-etiqueta-martillo-garra-aislado_1308-61820.jpg?w=2000",
+    "precio": 1000,
+    "stock": 100,
+    "id": 5,
+    "timestamp": 1671585862874
+  },
+  {
+    "nombre": "CASCO",
+    "descripcion": "descripcion del producto",
+    "codigo": "133888383",
+    "fotoUrl": "https://img.freepik.com/vector-gratis/diseno-etiqueta-martillo-garra-aislado_1308-61820.jpg?w=2000",
+    "precio": 1000,
+    "stock": 100,
+    "id": 6,
+    "timestamp": 1671585964135
+  },
+  {
+    "nombre": "CASCO",
+    "descripcion": "descripcion del producto",
+    "codigo": "133888383",
+    "fotoUrl": "https://img.freepik.com/vector-gratis/diseno-etiqueta-martillo-garra-aislado_1308-61820.jpg?w=2000",
+    "precio": 1000,
+    "stock": 100,
+    "id": 7,
+    "timestamp": 1671585975479
+  },
+  {
+    "nombre": "CASCO",
+    "descripcion": "descripcion del producto",
+    "codigo": "133888383",
+    "fotoUrl": "https://img.freepik.com/vector-gratis/diseno-etiqueta-martillo-garra-aislado_1308-61820.jpg?w=2000",
+    "precio": 1000,
+    "stock": 100,
+    "id": 8,
+    "timestamp": 1671586010405
+  },
+  {
+    "nombre": "CASCO",
+    "descripcion": "descripcion del producto",
+    "codigo": "133888383",
+    "fotoUrl": "https://img.freepik.com/vector-gratis/diseno-etiqueta-martillo-garra-aislado_1308-61820.jpg?w=2000",
+    "precio": 1000,
+    "stock": 100,
+    "id": 9,
+    "timestamp": 1671586077743
+  }
+]
